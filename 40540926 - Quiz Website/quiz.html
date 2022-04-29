@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<script src="quiz.js"></script>
+		<link href="stylesheet.css" rel="stylesheet">
+		<title>True or False - Quiz</title>
+	</head>
+	<body>
+		<a href="index.html"><img src="logo.png" class="img"/></a>
+			<nav class="navbar">
+				<div class="container">
+					<a href="quiz.html">Quiz</a>
+					<a href="facts.html">Facts</a>
+					<a href="support.html">Support</a>
+				</div>
+			</nav>
+		<header class="header">
+			<div class="container">
+				<div>
+					<h1>True or False - Quiz</h1>
+					<p>
+						This quiz features a scoring system which provides two points for correct answers and deducts one point for wrong answers. All facts featured on this website were provided by <i>Encyclopædia Britannica</i>.
+					</p>
+				</div>
+			</div>
+		</header>
+		<section class="main">
+			<div class="container">
+				<div class="square">
+					<h2>True or False?</h2>
+					<form id="quiz" name="quiz">
+
+					<div class="question show-question">
+                        <p class="questions">Flight recorders onboard planes are painted black boxes.</p>
+                        <input type="radio" id="option" name="q1" value="true">True<br>
+                        <input type="radio" id="option" name="q1" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">Napoleon Bonaparte was killed at the Battle of Waterloo.</p>
+                        <input type="radio" id="option" name="q2" value="true">True<br>
+                        <input type="radio" id="option" name="q2" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">An acute angle is less than 90 degrees</p>
+                        <input type="radio" id="option" name="q3" value="true">True<br>
+                        <input type="radio" id="option" name="q3" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">The highest-grossing film series in history is Star Wars.</p>
+                        <input type="radio" id="option" name="q4" value="true">True<br>
+                        <input type="radio" id="option" name="q4" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">Dubai is home to the tallest man-made structure ever built.</p>
+                        <input type="radio" id="option" name="q5" value="true">True<br>
+                        <input type="radio" id="option" name="q5" value="false">False<br>
+                    </div>
+
+                    <div class="uestion hide-question">
+                        <p class="questions">The bear has caused more human deaths than any other mammal in history.</p>
+                        <input type="radio" id="option" name="q6" value="true">True<br>
+                        <input type="radio" id="option" name="q6" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">Apartheid was the political system dismantled in South Africa at the end of the 20th century.</p>
+                        <input type="radio" id="option" name="q7" value="true">True<br>
+                        <input type="radio" id="option" name="q7" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">Oxygen makes up two-thirds of Earth and also two-thirds of the human body.</p>
+                        <input type="radio" id="option" name="q8" value="true">True<br>
+                        <input type="radio" id="option" name="q8" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">Lightning never strikes the same place twice.</p>
+                        <input type="radio" id="option" name="q9" value="true">True<br>
+                        <input type="radio" id="option" name="q9" value="false">False<br>
+                    </div>
+
+
+                    <div class="question hide-question">
+                        <p class="questions">Other than water, coffee is the world's most popular drink.</p>
+                        <input type="radio" id="option" name="q10" value="true">True<br>
+                        <input type="radio" id="option" name="q10" value="false">False<br>
+                    </div>
+
+
+
+                        <input type="button" class="button" id="button" value="Previous" onclick="previousQuestion()">
+                        <input type="button" class="button" id="button" value="Next" onclick="nextQuestion()">
+                        <br>
+                        <input type="button" class="button" id="button" value="SUBMIT" onclick="checkAnswers()">
+                    </div>
+
+					</form>
+
+				</div>
+			</div>
+		</section>
+		<section class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<h2>Share on Social Media</h2>
+					<div class="fb-share-button" data-href="https://www.youtube.com/watch?v=fqkcvlfK1yE" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfqkcvlfK1yE&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
